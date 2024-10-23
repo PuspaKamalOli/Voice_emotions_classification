@@ -1,0 +1,8 @@
+Flask==2.1.2
+numpy==1.23.0
+scikit-learn==1.1.1
+tensorflow==2.9.1
+librosa==0.9.2
+sounddevice==0.4.4
+audiomentations==0.22.0
+python==3.12.3
