@@ -1,7 +1,5 @@
 # ##for testig
 # # curl -X POST -F "file=@//Users/puspakamaloli/Desktop/TESS_CREMA/data/neutral/1001_MTI_NEU_XX.wav" http://127.0.0.1:5000/predict
-# # curl -X POST -H "Content-Type: application/json" -d '{"duration": 20, "chunk_duration": 3}' http://127.0.0.1:5000/record 
-#curl -X POST -H "Content-Type: application/json" -d '{"duration": 15, "chunk_duration": 3}' http://127.0.0.1:5000/record
 from flask import Flask, request, jsonify, Response
 import numpy as np
 import os
